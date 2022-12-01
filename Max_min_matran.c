@@ -14,7 +14,7 @@ int main()
         for(j=0;j<n;++j)
         {
             scanf("%f",&a[i][j]);
-            if ((i==0)&&(j==0))
+            if ((i==0)&&(j==0))/*Gán giá trị max,min đầu tiên là a[0][0]*/
             {
                 min=a[0][0]; max=a[0][0];
                 imax=0; jmax=0; imin=0; jmin=0;
